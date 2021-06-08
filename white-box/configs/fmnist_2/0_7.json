@@ -1,0 +1,19 @@
+{
+  "trials": 300,
+  "experiment_config": {
+    "num_shards": 2,
+    "num_slices": 1,
+    "cutoff": 1,
+    "private": true,
+    "l2_norm_clip": 0.1,
+    "noise_multiplier": 0.7,
+    "iterations": 2000,
+    "batch_size": 256,
+    "step_size": 4.0,
+    "examples_per_shard": 6000,
+    "sampling": "batch",
+    "model": "fmnist_conv",
+    "deletion_gap_quantile": 1.0,
+    "optimizer": "momentum"
+  }
+}

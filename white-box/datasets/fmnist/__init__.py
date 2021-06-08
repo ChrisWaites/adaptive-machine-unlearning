@@ -1,0 +1,1 @@
+from .fmnist import fmnist

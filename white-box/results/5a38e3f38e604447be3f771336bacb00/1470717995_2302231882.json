@@ -1,0 +1,25 @@
+{
+  "accs_after_deletion": [
+    0.8126000165939331,
+    0.8238000273704529
+  ],
+  "accs_before_deletion": [
+    0.8616000413894653,
+    0.8578000664710999
+  ],
+  "delta": 6.982864657330156e-05,
+  "ensemble_acc_after_deletion": 0.8306000232696533,
+  "ensemble_acc_before_deletion": 0.8596000671386719,
+  "epsilon": "\u221e",
+  "indicator": 1,
+  "lengths_after_deletion": [
+    2493,
+    3613
+  ],
+  "rng": [
+    1470717995,
+    2302231882
+  ],
+  "shard_prediction_precision": 0.5950118899345398,
+  "shard_prediction_recall": 0.5845000147819519
+}

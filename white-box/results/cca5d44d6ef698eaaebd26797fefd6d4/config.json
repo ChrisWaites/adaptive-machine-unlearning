@@ -1,0 +1,16 @@
+{
+  "batch_size": 64,
+  "cutoff": 1,
+  "deletion_gap_quantile": 1.0,
+  "examples_per_shard": 8000,
+  "iterations": 4000,
+  "l2_norm_clip": 0.1,
+  "model": "cifar_smaller_conv",
+  "noise_multiplier": 0.0,
+  "num_shards": 2,
+  "num_slices": 1,
+  "optimizer": "momentum",
+  "private": true,
+  "sampling": "batch",
+  "step_size": 1.0
+}
